@@ -1,0 +1,42 @@
+// Импорт
+@import "nullstyle.scss";
+
+/* 
+// Переменные
+	$ff: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	$clr: #000;
+	$clr-hvr: #333;
+
+// Шаблоны
+	%tplborder {
+		font-style: italic;
+		border-bottom: 5px dashed tomato;
+	}
+	@extend %tplborder;
+*/
+// Переменные
+$ff: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$clr: #ff9b51;
+$clr-hvr: #ef7e2b;
+
+// Шаблоны
+%sml-text {
+	font-size: 1em;
+	font-weight: 100;
+	color: #86878b;
+}
+%btn {
+	font-size: 18px / 16px * 1em;
+	color: #fff;
+	background: $clr;
+
+	padding: 8px 20px;
+
+	border-radius: 3px;
+
+	transition: all 0.2s linear;
+
+	&:hover {
+		background-color: $clr-hvr;
+	}
+}
