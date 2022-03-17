@@ -151,7 +151,7 @@ html {
 
 .section--intro {
 	background-color: #888;
-	min-height: 93vh;
+	min-height: 100vh;
 
 	display: flex;
 	flex-direction: column;
@@ -188,6 +188,8 @@ html {
 
 /*! Header */
 .header {
+	position: fixed;
+	width: 100%;
 	background-color: #000;
 	height: 70px;
 	padding: 0 10%;
@@ -195,6 +197,8 @@ html {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+
+	z-index: 100;
 }
 .header__block {
 	display: flex;
